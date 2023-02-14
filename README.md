@@ -9,4 +9,5 @@ Steps to test:
 8. go to edit a video
 9. => current tags not displayed - 
 neither using multi select nor checkbox list
+
 Note: I have the same issue if I replace the multi-select with a checkbox list
