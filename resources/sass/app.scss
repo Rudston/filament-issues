@@ -1,0 +1,35 @@
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
+@import '../../vendor/filament/forms/dist/module.esm.css';
+
+@import 'tailwindcss/base';
+
+@layer base {
+    p {
+        @apply text-gray-900 font-normal text-base;
+    }
+}
+
+@import 'tailwindcss/components';
+
+.save_btn {
+    @apply inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded text-white bg-accent-600 hover:bg-accent-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600 #{!important};
+}
+
+@import 'tailwindcss/utilities';
+
+/* application */
+.error{color:red !important}
+
+.background-div {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4d94ed+0,68a751+100 */
+    background: none;
+    background: #4d94ed; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #4d94ed 0%, #68a751 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #4d94ed 0%,#68a751 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #4d94ed 0%,#68a751 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d94ed', endColorstr='#68a751',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
